@@ -18,11 +18,11 @@ bio: |
   work on gene expression data visualization in R, and I'm involved with
   Triangle Fraternity and the UW Climbing Team.
 
-  Reach me at elizuerlein@gmail.com.
-
 affiliations:
   - name: University of Washington, Seattle
     url: https://www.washington.edu/
+  - name: elizuerlein@gmail.com
+    url: mailto:elizuerlein@gmail.com
 
 links:
   - icon: at-symbol
