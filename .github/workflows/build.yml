@@ -16,9 +16,11 @@ on:
   # Allow manual trigger for testing
   workflow_dispatch:
 
-# Read-only permissions for security
+# Read-only permissions for security, plus Pages read access for the
+# configure-pages step (which looks up the Pages site's base URL)
 permissions:
   contents: read
+  pages: write
 
 # Prevent duplicate builds for the same PR
 concurrency:
