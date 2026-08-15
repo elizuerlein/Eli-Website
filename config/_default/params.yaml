@@ -279,9 +279,10 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   pro:
     # Hide "Powered by HugoBlox" attribution
-    # Requires: HugoBlox Premium to support HugoBlox via alternative means
-    # Note: Even with Premium, you can keep this false to support open source!
-    # Get Premium: https://hugoblox.com/premium
+    # Note: this param is not actually wired to anything — the module hard-gates
+    # attribution removal behind a paid license (see build WARN if you set this true).
+    # Attribution is instead suppressed via a local override at
+    # layouts/_partials/site_footer.html, which the MIT license does not require.
     hide_attribution: false
 
     # Affiliate referral code for rewards program
