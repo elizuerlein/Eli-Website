@@ -35,71 +35,22 @@ sections:
         shape: circle # Options: circle (default), square, rounded
   - block: markdown
     content:
-      title: '📚 My Research'
+      title: '🌱 What I''m Working On'
       subtitle: ''
       text: |-
-        [Placeholder — edit content/_index.md] Use this area to speak to your mission: what you work on, what questions drive you, and what you're looking for.
+        I'm studying Molecular, Cellular, and Developmental Biology at the University of Washington. Right now that means volunteering at the UW greenhouse, working through an independent study using R to visualize gene expression data, and figuring out what research I want to pursue next.
 
-        Please reach out to collaborate 😃
+        Outside the lab, I'm Recruitment VP for Triangle Fraternity, climb with the UW Climbing Team, and spend a lot of time on the ceramics wheel.
     design:
       columns: '1'
   - block: collection
-    id: papers
+    id: projects
     content:
-      title: Featured Publications
+      title: Projects
       filters:
         folders:
-          - publications
-        featured_only: true
+          - projects
     design:
       view: article-grid
       columns: 2
-  - block: collection
-    content:
-      title: Recent Publications
-      text: ''
-      filters:
-        folders:
-          - publications
-        exclude_featured: false
-    design:
-      view: citation
-  - block: collection
-    id: talks
-    content:
-      title: Recent & Upcoming Talks
-      filters:
-        folders:
-          - events
-    design:
-      view: card
-  - block: collection
-    id: news
-    content:
-      title: Recent News
-      subtitle: ''
-      text: ''
-      # Page type to display. E.g. post, talk, publication...
-      page_type: blog
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 10
-      # Filter on criteria
-      filters:
-        author: ''
-        category: ''
-        tag: ''
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-        publication_type: ''
-      # Choose how many pages you would like to offset by
-      offset: 0
-      # Page order: descending (desc) or ascending (asc) date.
-      order: desc
-    design:
-      # Choose a layout view
-      view: card
-      # Reduce spacing
-      spacing:
-        padding: [0, 0, 0, 0]
 ---

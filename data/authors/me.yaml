@@ -10,16 +10,17 @@ name:
   pronouns: ''
 postnominals: []
 status:
-  icon: ""
-role: "[Your role/title — edit in data/authors/me.yaml]"
+  icon: "🌱"
+role: Undergraduate Student, Molecular, Cellular & Developmental Biology
 bio: |
-  [Write a short bio here — who you are, what you work on, and what you're
-  looking for (e.g. collaborators, opportunities). This is a placeholder,
-  edit data/authors/me.yaml to replace it.]
+  I'm an undergraduate at the University of Washington studying Molecular,
+  Cellular, and Developmental Biology. I volunteer at the UW greenhouse,
+  work on gene expression data visualization in R, and I'm involved with
+  Triangle Fraternity and the UW Climbing Team.
 
 affiliations:
-  - name: "[Your institution or organization]"
-    url: ""
+  - name: University of Washington, Seattle
+    url: https://www.washington.edu/
 
 links:
   - icon: at-symbol
@@ -27,35 +28,82 @@ links:
     label: E-mail Me
   - icon: brands/github
     url: https://github.com/elizuerlein
-  - icon: brands/linkedin
-    url: ""
-  - icon: academicons/google-scholar
-    url: ""
-  - icon: academicons/orcid
-    url: ""
 
 interests:
-  - "[Interest 1]"
-  - "[Interest 2]"
-  - "[Interest 3]"
+  - Molecular & Developmental Biology
+  - R & Data Visualization
+  - Plant Science & Habitat Restoration
+  - Ceramics
 
 education:
-  - degree: "[Degree]"
-    institution: "[Institution]"
-    start: 2020-09-01
-    end: 2024-06-30
+  - degree: "B.S. Molecular, Cellular, and Developmental Biology"
+    institution: University of Washington, Seattle
+    start: 2024-09-01
+    end: 2028-06-01
     summary: |
-      [Short summary of thesis/focus, honors, etc.]
+      Tri-Beta Biological Honors Society. Relevant coursework: General
+      Chemistry (143, 153), Calculus (125), Intro Biology (180, 200, 220),
+      Physics (115), Organic Chemistry (237, 238), Biology (Evolution and
+      Systematics).
+  - degree: High School Diploma
+    institution: Lake Forest High School
+    start: 2020-09-01
+    end: 2024-06-01
+    summary: |
+      National Honors Society, Cum Laude, 3D-Art Departmental Award.
 
 experience:
-  - role: "[Your role]"
-    org: "[Organization]"
-    start: 2024-01-01
+  - role: Volunteer
+    org: University of Washington Greenhouse
+    start: 2025-09-01
     summary: |
-      [What you do / did in this role.]
+      Performed general maintenance on plants in the greenhouse, identified
+      and tagged plant specimens, prepared plant material for Biol 180 and
+      Biol 220 labs, measured growth of specific plants, and contributed to
+      habitat restoration efforts.
+  - role: Recruitment Vice President
+    org: Triangle Fraternity, UW Chapter
+    start: 2025-01-01
+    summary: |
+      Triangle is a fraternity for STEM majors where curious and
+      hardworking young adults gather to share ideas and experiences.
+      Helps run recruitment and pairs each member with an alumni mentor
+      for guidance during and after college.
+  - role: Teacher's Assistant (Biology)
+    org: Lake Forest High School
+    start: 2024-01-01
+    end: 2024-06-01
+    summary: |
+      Worked with students as a tutor, demonstrated labs, and reviewed
+      homework and exams with students, under teacher Kurt Schuessler.
+  - role: Front End Clerk
+    org: Heinen's Grocery
+    start: 2022-06-01
+    end: 2022-08-01
+    summary: |
+      Communicated with customers in a professional manner and completed
+      tasks in a timely manner in a fast-paced retail environment.
 
-skills: []
+skills:
+  - name: Technical Skills
+    items:
+      - label: R & RStudio
+      - label: ggplot2 & Data Visualization
+      - label: CRAN, Bioconductor & GitHub
+  - name: Hobbies
+    items:
+      - label: Rock Climbing (UW Climbing Team)
+      - label: Ceramics (1,000+ hours on the wheel)
 
 languages: []
 
-awards: []
+awards:
+  - title: Tri-Beta Biological Honors Society
+    awarder: University of Washington
+    summary: ''
+  - title: National Honors Society
+    awarder: Lake Forest High School
+    date: "2024-06-01"
+  - title: 3D-Art Departmental Award
+    awarder: Lake Forest High School
+    date: "2024-06-01"
