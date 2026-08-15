@@ -1,0 +1,61 @@
+schema: hugoblox/author/v1
+slug: me
+is_owner: true
+name:
+  display: Eli Zuerlein
+  given: Eli
+  family: Zuerlein
+  alternate: ''
+  pronunciation: ''
+  pronouns: ''
+postnominals: []
+status:
+  icon: ""
+role: "[Your role/title — edit in data/authors/me.yaml]"
+bio: |
+  [Write a short bio here — who you are, what you work on, and what you're
+  looking for (e.g. collaborators, opportunities). This is a placeholder,
+  edit data/authors/me.yaml to replace it.]
+
+affiliations:
+  - name: "[Your institution or organization]"
+    url: ""
+
+links:
+  - icon: at-symbol
+    url: mailto:elizuerlein@gmail.com
+    label: E-mail Me
+  - icon: brands/github
+    url: https://github.com/elizuerlein
+  - icon: brands/linkedin
+    url: ""
+  - icon: academicons/google-scholar
+    url: ""
+  - icon: academicons/orcid
+    url: ""
+
+interests:
+  - "[Interest 1]"
+  - "[Interest 2]"
+  - "[Interest 3]"
+
+education:
+  - degree: "[Degree]"
+    institution: "[Institution]"
+    start: 2020-09-01
+    end: 2024-06-30
+    summary: |
+      [Short summary of thesis/focus, honors, etc.]
+
+experience:
+  - role: "[Your role]"
+    org: "[Organization]"
+    start: 2024-01-01
+    summary: |
+      [What you do / did in this role.]
+
+skills: []
+
+languages: []
+
+awards: []
